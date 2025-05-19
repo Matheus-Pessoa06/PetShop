@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory} from 'vue-router'
 import LoginView from '@/views/LoginView.vue'
 import SideBar from '@/components/SideBar.vue'
+import NovoUsuarioView from '@/views/NovoUsuarioView.vue'
 
 const routes = [
     {
@@ -14,6 +15,12 @@ const routes = [
         name: 'sidebar',
         component: SideBar
 
+    },
+
+    {
+        path: '/newUser',
+        name: 'newUser',
+        component: NovoUsuarioView
     }
 ]
 
