@@ -30,12 +30,14 @@ Siga os passos abaixo para configurar o projeto localmente.
    php artisan key:generate
    
 5. Rode as migrations para criar as tabelas no banco:
+   ```bash
    php artisan migrate
 
 # Executando o projeto
+
 Para rodar o servidor de desenvolvimento:
 
-php artisan serve
+    php artisan serve
 
 Por padrão, a aplicação vai rodar em http://localhost:8000.
 
