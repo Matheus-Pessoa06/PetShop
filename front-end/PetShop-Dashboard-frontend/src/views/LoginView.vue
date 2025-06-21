@@ -68,12 +68,30 @@ input{
 
 button{
     font-family: "Roboto", sans-serif;
+    cursor: pointer;
     padding: 10px;
     width: 10rem;
     border: none;
     border-radius: 4px;
     background-color:#005FB8;
     color: #FFFFFF;
+}
+
+@media (max-width: 844px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+    }
+
+    .login-left input{
+        margin-left: 0;
+        width: 16rem;
+    }
+
+    .login-right{
+        display: none;
+    }
 }
 
 </style>
